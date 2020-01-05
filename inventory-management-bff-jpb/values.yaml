@@ -1,0 +1,11 @@
+global:
+  ingressSubdomain: mooc-two-ocp-cluster-0143c5dd31acd8e030a1d6e0ab1380e3-0000.eu-gb.containers.appdomain.cloud
+  tlsSecretName: mooc-two-ocp-cluster-0143c5dd31acd8e030a1d6e0ab1380e3-0000
+
+inventory-management-bff-jpb:
+  replicaCount: 2
+  
+  ingress:
+    enabled: true
+    tlsSecretName: mooc-two-ocp-cluster-0143c5dd31acd8e030a1d6e0ab1380e3-0000
+
